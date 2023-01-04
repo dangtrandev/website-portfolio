@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(23, 185, 221);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    border: none; 
+    border-radius: 50%; 
+    height: 30px; 
+    width: 30px; 
+}
+
+#counter {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: auto;
+    padding-left: 50px; 
+    padding-right: 50px;
+}
