@@ -1,0 +1,21 @@
+/* the color codes using for website: 
+    background-color: #f8f8f8
+    heading1-color: #323136
+    transparent-color: #3f4afa(blue) and #8b4bbfa (purple)
+
+    font-color: #323136
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+    height: 100%; 
+    width: 100%; 
+    background-color:#f8f8f8; 
+    color: #323136; 
+}
+
+#button_link {
+    color: #f8f8f8; 
+    text-decoration: none; 
+    font-family: "Poppins", sans-serif; 
+    font-weight: 500; 
+}

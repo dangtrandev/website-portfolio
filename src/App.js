@@ -1,16 +1,19 @@
 import React from "react"; 
+import {NavBar} from "./component/NavBar"; 
+import {Header} from "./component/Header"; 
+import {Footer} from "./component/Footer";   
 
-export default class App extends React.Component() {
+export default class App extends React.Component {
     constructor(props){
         super(props); 
-        this.state={
+        // this.state={
 
-        }
+        // }
     }
 
     render(){
         return(
-            <div>
+            <div id="app">
                 <NavBar />
                 <Header name="Dang Tran" />
                 <Footer /> 
